@@ -10,7 +10,7 @@ import Login from "./pages/login/Login";
 
 function App() {
   return (
-    <BrowserRouter basename='/index.html'>
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/hotels" element={<List />} />
